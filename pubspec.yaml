@@ -1,0 +1,21 @@
+name: checkmarx_pubspec
+description: Make checkmarx analysis on pubspec.lock
+version: 0.0.1
+homepage: https://github.com/agacemi/score_pubspec.git
+repository: https://github.com/agacemi/score_pubspec.git
+environment:
+  sdk: ">=3.0.0 <5.0.0"
+executables:
+  checkmarx_pubspec: main
+
+# dependencies:
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+dependencies:
+  args: ^2.4.0
+  build_runner: ^2.4.6
+  http: ^1.1.0
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.0
+  pubspec_lock_parse: ^2.2.0
